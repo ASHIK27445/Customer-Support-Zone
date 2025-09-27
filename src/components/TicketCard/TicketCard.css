@@ -1,0 +1,30 @@
+.priorityHigh{
+    color: #F83044;
+    font-weight: 500;
+}
+.priorityUrgent{
+    color: #F83044;
+    font-weight: 800;
+}
+.priorityMedium{
+    color: #FEBB0C;
+    font-weight: 500;
+}
+.priorityLow{
+    color: #02A53B;
+    font-weight: 500;
+}
+
+/*
+                    <span className={ tickets.priority === "High" ? 'priorityHigh' :
+                    tickets.priority === "Urgent" ? 'priorityUrgent' :
+                    tickets.priority === "Medium" ? 'priorityMedium' :
+                    'priorityLow'}> {tickets.priority}</span>
+
+        <span className='text-[#627382] pr-3'>{tickets.id}</span> <span className={ tickets.priority === "High" ? 'text-[#F83044] font-medium' :
+      tickets.priority === "Urgent" ? 'text-[#F83044] font-extrabold' :
+      tickets.priority === "Medium" ? 'text-[#FEBB0C] font-medium' :
+      'text-[#02A53B] font-medium'}>{tickets.priority}</span>
+
+      
+*/

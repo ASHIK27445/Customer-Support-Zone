@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TKT001",
+    "title": "Cannot log in after password change",
+    "description": "User is locked out of their account after successfully changing their password yesterday. Getting an 'invalid credentials' error.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "09/27/2025"
+  },
+  {
+    "id": "TKT002",
+    "title": "Invoice #452 PDF corrupted",
+    "description": "When trying to download the PDF for invoice 452, the file is corrupted and cannot be opened. Requires the invoice to be resent/regenerated.",
+    "customer": "Bob Smith (Acme Corp)",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "09/27/2025"
+  },
+  {
+    "id": "TKT003",
+    "title": "Feature Request: Dark Mode option",
+    "description": "Requesting the addition of a dark mode theme for better visibility during late-night use.",
+    "customer": "Charlie Brown",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "09/27/2025"
+  },
+  {
+    "id": "TKT004",
+    "title": "Intermittent API endpoint 500 errors",
+    "description": "The /data/v3 endpoint is returning 500 errors sporadically, impacting 1 out of 10 requests. This needs immediate investigation.",
+    "customer": "Data Integrations Team",
+    "priority": "Urgent",
+    "status": "Open",
+    "createdAt": "09/27/2025"
+  },
+  {
+    "id": "TKT005",
+    "title": "Incorrect tax calculation on recent purchase",
+    "description": "The sales tax rate applied to my order #10123 seems incorrect based on my current location and local laws.",
+    "customer": "Diana Prince",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "09/26/2025"
+  },
+  {
+    "id": "TKT006",
+    "title": "Typo on the 'Contact Us' page",
+    "description": "There's a typo: 'receieve' instead of 'receive' in the contact form footer.",
+    "customer": "Ethan Hunt",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "09/26/2025"
+  },
+  {
+    "id": "TKT007",
+    "title": "Database connection failing every night at 2 AM",
+    "description": "Automated logs show a recurring database connection failure around 2:00 AM UTC. Needs monitoring and root cause analysis.",
+    "customer": "Internal Monitoring",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "09/25/2025"
+  },
+  {
+    "id": "TKT008",
+    "title": "Missing order tracking link",
+    "description": "Received shipping confirmation email for order #10125, but the tracking link is missing or broken.",
+    "customer": "Fiona Glenanne",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "09/25/2025"
+  },
+  {
+    "id": "TKT009",
+    "title": "Subscription cancellation not processed",
+    "description": "I tried to cancel my subscription 3 days ago through the portal, but I received a charge notification today.",
+    "customer": "Greg Hansen",
+    "priority": "Urgent",
+    "status": "In Progress",
+    "createdAt": "09/24/2025"
+  },
+  {
+    "id": "TKT010",
+    "title": "Request for documentation clarification on webhooks",
+    "description": "The documentation for setting up webhooks lacks clear examples for payload validation.",
+    "customer": "Hannah Miller",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "09/24/2025"
+  },
+  {
+    "id": "TKT011",
+    "title": "UI elements overlapping on mobile screens",
+    "description": "The navigation bar icons overlap the search bar when viewed on an iPhone SE.",
+    "customer": "Ivy Peterson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "09/23/2025"
+  },
+  {
+    "id": "TKT012",
+    "title": "Question about billing cycle adjustment",
+    "description": "Can we change our billing cycle from monthly to quarterly? Need confirmation on the process and effect on current charges.",
+    "customer": "Jack Sparrow",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "09/22/2025"
+  }
+]
