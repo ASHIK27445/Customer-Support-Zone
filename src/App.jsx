@@ -19,7 +19,9 @@ function App() {
   const handleCompleteTicket = (completedTicket) => {
     const completed = inProgress.filter(ticket => ticket.id !== completedTicket.id)
     setInProgress(completed)
-    toast.success("Completed")
+    toast.success("Completed", {
+      autoClose: 1250
+    })
     setResolved(prev => {
       if (!prev.some(ticket => ticket.id === completedTicket.id)) {
         return [...prev, completedTicket]
