@@ -34,7 +34,10 @@ function App() {
     <>
       <Navbar></Navbar>
       <ProgreeBar inProgress={inProgress} resolved={resolved}></ProgreeBar>
-      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+      <Suspense fallback={
+        <div className='flex items-center justify-center h-[250px]'>
+           <span className="loading loading-bars loading-xl"></span>
+        </div>}>
         <Taskbar 
         ticketFetchData={ticketFetchData}
         handleInProgressCount = {handleInProgressCount}
